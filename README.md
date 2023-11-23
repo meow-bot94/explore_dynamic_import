@@ -1,4 +1,7 @@
-# explore_dynamic_import
+# explore_submodule_import
+
+This repo aims to explore techniques to import from submodules in Python when there are potential clashes in implementation (same class, same name, across different submodules)
+Otherwise site.addsitedir or appending paths in the submodule __init__.py might suffice.
 
 Commands to replicate:
 - python -m venv venv
