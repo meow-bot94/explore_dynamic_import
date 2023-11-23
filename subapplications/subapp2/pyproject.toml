@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["subapp2"]
+namespaces = true
+
+[project]
+name = "subapp2"
+version = "1.0.0"
+description = "Test Namespace"
+license = { text = "No Agreement" }
